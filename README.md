@@ -33,6 +33,7 @@ In this exercise, you're tasked with implementing a function that iterates throu
 - Otherwise, print the number itself.
 
 **Learning Outcome:**
+
 By completing this exercise, you will:
 - Practice using loops and conditional statements.
 - Develop the ability to manipulate and accumulate results in lists.
