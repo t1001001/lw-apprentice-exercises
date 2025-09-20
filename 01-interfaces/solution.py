@@ -11,8 +11,8 @@ class Geometry(ABC):
     def perim(self) -> float:
         pass
 
-# Rect class
-class Rect(Geometry):
+# Rectangle class
+class Rectangle(Geometry):
     def __init__(self, width: float, height: float):
         self._width = width
         self._height = height
@@ -41,7 +41,7 @@ def measure(g: Geometry):
     print(g.perim())
 
 # Instantiate classes
-rect = Rect(
+rect = Rectangle(
     width = 3,
     height = 4
 )
